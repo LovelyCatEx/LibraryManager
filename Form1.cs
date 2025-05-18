@@ -16,5 +16,11 @@ namespace LibraryManager
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            User user = new User("lovelycat", "2333");
+            user.sayHello();
+        }
     }
 }

@@ -19,4 +19,28 @@ namespace LibraryManager
             Application.Run(new Form1());
         }
     }
+
+    /**
+     * A 的代码
+     */
+
+    /**
+     * B 的代码
+     */
+    public class User
+    {
+        public string username;
+        public string password;
+
+        public User(string username, string password)
+        {
+            this.username = username;
+            this.password = password;
+        }
+
+        public void sayHello()
+        {
+            Console.WriteLine(username + " says: hello world!");
+        }
+    }
 }
